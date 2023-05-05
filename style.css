@@ -1,0 +1,93 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    overflow: hidden;
+    box-sizing: border-box;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+body{
+    background-color: #ffffff;
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 40px;
+    
+}
+.logo{
+    padding-left: 20px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-left: 700px; 
+    
+}
+nav ul li{
+    display: flex;
+    align-items: center;   
+    font-weight: 700;
+}
+nav ul li:first-child{
+    color: #20bc7e;
+    font-weight: 750;
+}
+
+/* LEFT HERO SECTION  */
+main{
+    display: flex;
+    align-items: center;
+    padding-left: 80px;
+    margin-top: 40px;
+}
+.left-hero-section{
+    display: flex;
+    align-self: center; 
+    
+}
+main h1{
+     font-weight: 800;
+     font-size: 80px;
+}
+main p{
+    color: #7c7c7c;
+    font-size: 18px;
+    margin: 20px 0;
+}
+.bottom-image{
+    margin-left: 550px;
+    padding: 10px;
+}
+.mouse{
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 20px;
+}
+
+main button{
+    font-weight: 600;
+    font-size: 30px;
+    background-color: #20bc7e;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+    color: #ffffff;
+
+}
+
+/* RIGHT HERO SECTION */
+.greenbox,.yellowbox,.doctor{
+    position: absolute;
+    margin-left: 200px;
+    margin-top: -200px;
+    right: 0;
+}
+.yellowbox{
+    margin-top: -150px;
+}
+.doctor{
+    margin-top: -350px;
+
+}
