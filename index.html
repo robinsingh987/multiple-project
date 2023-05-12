@@ -1,68 +1,272 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ASSIGNMENT PROJECT 2</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Earphone Project</title>
     <!-- CSS LINK -->
-    <link rel="stylesheet" href="./style.css"/>
+    <link rel="stylesheet" href="./style.css" />
 
     <!-- GOOGLE FONT CDN -->
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link
-  href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;300;400;500;600;700&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap"
-  rel="stylesheet"
-/>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- START PROJECT -->
 
+    <!-- NAVIGATION-BAR -->
 
-</head>
-<body>
-    <!-- PROJECT START -->
-    <header>
-        <section aria-label="nav-bar">
-            <nav class="nav-bar">
-                <div class="logo">
-                    <img src="logo.png" alt="logo">
-                </div>
+    <nav>
+      <img src="beatsLogo.png" alt="logo" />
 
-                <ul>
-                    <li class="Home"><a href="#"></a> Home</li>
-                    <li><a href="#"></a> About us</li>
-                    <li><a href="#"></a> Our services</li>
-                    <li><a href="#"></a> contact us</li>
-                </ul>
-            </nav>
-        </section>
-    </header>
+      <div class="nav-right-section">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Specs</a></li>
+          <li><a href="#">Case</a></li>
+          <li><a href="#">Products</a></li>
+        </ul>
+        <button>Shop</button>
+      </div>
+    </nav>
 
     <!-- MAIN HERO SECTION -->
-        <main>
-            <!-- LEFT HERO SECTION -->
-            <section aria-label="left-hero-section">
-                <img src="topAngle.png" alt="image">
-                <h1>
-                    Complete Health <br> Care Solutions for <br> Everyone
-                </h1>
-                <p>
-                    We're always available for our Patients with emergen problems. You can <br>
-                    easily reach us 24/7. We focused on highest quality.
-                </p>
-                <img class="bottom-image" src="bottomAngle.png" alt="image">
-                <br>
-                <button>Make Appointment</button>
-                <img class="mouse" src="mouse.png" alt="image"> 
-            </section>
+    <main>
+      <img class="mainImage" src="mainImage.png" alt="image" />
+      <div class="main">
+        <img class="onEar" src="onEar.png" alt="image" />
+        <h1>Beats 3</h1>
+        <h4>Overview</h4>
+        <p>
+          Enjoy award-winning Beats sound with wireless listening freedom and a
+          sleek, streamlined design with comfortable padded earphones,
+          delivering first-rate playback.
+        </p>
+        <div class="shopping-bag-section">
+          <img src="shoppingBag.png" alt="image" />
+          <p>Add to bag</p>
+          <span>N399k</span>
+        </div>
+      </div>
+    </main>
 
-            <!-- RIGHT HERO SECCTION -->
-            <section class="right-hero-section">
-                <img class="greenbox" src="greenBox.png" alt="image" height="450px" width="500px">
-                <img class="yellowbox" src="yellowBox.png" alt="image" height="400p" width="400px">
-                <img class="doctor" src="doctor.png" alt="image" height="700px" width="500px">
+    <!-- SOCIAL-MEDIA-ICON -->
 
-            </section>
-        </main>
-    
-</body>
+    <section class="social-media-section">
+      <img src="appleLogo.png" alt="image" />
+      <img src="spotifyLogo.png" alt="image" />
+      <img src="amazonLogo.png" alt="image" />
+      <img src="youtubeLogo.png" alt="image" />
+    </section>
+
+    <!--  NEW-SPECIFICATION-SECTION -->
+
+    <section class="specification">
+      <!-- adding the specs logo -->
+      <img class="specification-logo" src="specsLogo.png" alt="image" />
+      <div class="specification-list">
+        <!-- creating a division for holding all the specifications -->
+        <div class="specification-list-items">
+          <!-- creating a division for each specifications -->
+          <div>
+            <img src="bluetooth.png" alt="image" />
+            <p>Connection</p>
+            <p>Bluetooth v5.2</p>
+          </div>
+          <div>
+            <img src="battery.png" alt="image" />
+            <p>Battery</p>
+            <p>Duration 40h</p>
+          </div>
+          <div>
+            <img src="charger.png" alt="image" />
+            <p>Load</p>
+            <p>Fast Charge 4.2-AAC</p>
+          </div>
+          <div>
+            <img src="mic.png" alt="image" />
+            <p>Microphone</p>
+            <p>Supports Apple Siri and Google</p>
+          </div>
+        </div>
+
+        <!-- adding an image with respect to the specification -->
+        <div>
+          <img src="specsImage.png" alt="image" />
+        </div>
+      </div>
+    </section>
+
+    <!-- creating a case section -->
+    <section class="case">
+      <!-- adding the case logo here -->
+      <img class="case-logo" src="caseLogo.png" alt="image" />
+
+      <!-- creating a new division to wrap all case items -->
+      <div class="case-item">
+        <img class="case-item-image" src="caseImage.png" alt="image" />
+
+        <div>
+          <p>
+            With a comfortable and adaptable case so that you can store it
+            whenever you want, and keep your durability forever.
+          </p>
+          <p>
+            <img src="group.png" alt="image" />
+            More Information
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- section to allow user to buy a product -->
+    <section class="buy-product">
+      <div>
+        <h3>Immense yourself in your music</h3>
+        <p>Buy Now, up to 40% off.</p>
+
+        <div>
+          <img src="shoppingBag.png" alt="image" />
+          <p class="buy-now">Buy now</p>
+        </div>
+      </div>
+
+      <img src="buyNowSectionImage.png" alt="image" />
+    </section>
+
+    <!-- creating a product section to display the items -->
+    <section class="product">
+      <!-- adding the choose style logo -->
+      <img class="product-logo" src="productLogo.png" alt="logo" />
+
+      <!-- creating a new division for adding all the products to showcase to user -->
+      <div class="product-items">
+        <!-- creating card for product -->
+        <div class="product-card">
+          <img class="product-img" src="black.png" alt="black" />
+          <div class="product-info">
+            <p>
+              Black <br />
+              <span>N299K</span>
+            </p>
+
+            <div>
+              <img src="shoppingBag.png" alt="image" />
+            </div>
+          </div>
+        </div>
+
+        <!-- creating card for product -->
+        <div class="product-card">
+          <img class="product-img" src="redBlack.png" alt="image" />
+          <div class="product-info">
+            <p>
+              Red Black <br />
+              <span>N299K</span>
+            </p>
+
+            <div>
+              <img src="shoppingBag.png" alt="image" />
+            </div>
+          </div>
+        </div>
+
+        <!-- creating card for product -->
+        <div class="product-card">
+          <img class="product-img" src="nightBlack.png" alt="image" />
+          <div class="product-info">
+            <p>
+              Night Black <br />
+              <span>N299K</span>
+            </p>
+
+            <div>
+              <img src="shoppingBag.png" alt="image" />
+            </div>
+          </div>
+        </div>
+
+        <!-- creating card for product -->
+        <div class="product-card">
+          <img class="product-img" src="blue.png" alt="image" />
+          <div class="product-info">
+            <p>
+              Blue <br />
+              <span>N299K</span>
+            </p>
+
+            <div>
+              <img src="shoppingBag.png" alt="image" />
+            </div>
+          </div>
+        </div>
+
+        <!-- creating card for product -->
+        <div class="product-card">
+          <img class="product-img" src="twilightGray.png" alt="image" />
+          <div class="product-info">
+            <p>
+              Black <br />
+              <span>N299K</span>
+            </p>
+
+            <div>
+              <img src="shoppingBag.png" alt="image" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+       <!-- designing the footer area of the website -->
+       <footer>
+        <img class="footer-logo" src="beatsLogo.png" alt="logo" />
+  
+        <!-- creating the product navigation menu -->
+        <ul>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Headphones</a></li>
+          <li><a href="#">Earphones</a></li>
+          <li><a href="#">Earbuds</a></li>
+          <li><a href="#">Accessories</a></li>
+        </ul>
+  
+        <!-- creating the support navigation menu -->
+        <ul>
+          <li><a href="#">Support</a></li>
+          <li><a href="#">Product Help</a></li>
+          <li><a href="#">Register</a></li>
+          <li><a href="#">Updates</a></li>
+          <li><a href="#">Provides</a></li>
+        </ul>
+  
+        <!-- adding subscribe and social media icon buttons -->
+        <div class="footer-subscription">
+          <!-- adding the division for subscribe -->
+          <div>
+            <input type="email" placeholder="Email" />
+            <div class="subscribe-button">
+              <img src="rightArrow.png" alt="rightArrow" />
+              <p>Subscribe</p>
+            </div>
+          </div>
+  
+          <!-- social media icons -->
+          <div>
+            <img src="facebook.png" alt="facebook" />
+            <img src="twitter.png" alt="twitter" />
+            <img src="instagram.png" alt="instagram" />
+            <img src="linkedin.png" alt="linkedin" />
+          </div>
+        </div>
+  
+        <!-- adding top arrow for icon for moving the page to top -->
+        <img class="arrow-up" src="upArrow.png" alt="upArrow" />
+      </footer>
+  </body>
 </html>
